@@ -1,0 +1,349 @@
+﻿html {
+    position: relative;
+    min-height: 100%;
+}
+
+input {
+    text-transform: uppercase;
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none !important;
+}
+
+.navbar-jus {
+    padding: 15px;
+}
+
+.navbar-jus .media img {
+    max-height: 45px;
+}
+
+/*getbootstrap.com/components/#navbar-fixed-top*/
+/*body {
+    padding-top: 75px;
+}*/
+
+.tooltip.in {
+    opacity: 100;
+}
+
+.tooltip-inner {
+    max-width: 750px;
+    padding: 10px;
+    color: #000;
+    text-align: left;
+    background-color: #eff0f0;
+    border: 2px solid #000;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.validation-summary-errors ul {
+    padding: 0;
+    margin-left: 5px;
+}
+
+.field-validation-error {
+    margin-bottom: -5px;
+}
+
+.modal-dialog-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+}
+
+.modal-body {
+    overflow-y: auto;
+}
+
+.bg-body {
+    background: #F9F9F9;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-lead {
+    font-size: 1.3em;
+}
+
+.text-legend {
+    font-size: 21px;
+}
+
+.modal-footer {
+    margin-top: 0;
+}
+
+@media (max-width: 767px) {
+    .modal-dialog-center {
+        width: 100%;
+    }
+}
+
+.detalle label {
+    display: block;
+    margin-bottom: 0;
+}
+
+.detalle .form-group {
+    margin-bottom: 5px;
+}
+
+.mensajeError {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 120px;
+    margin: auto;
+}
+
+/* jquery dataTables*/
+
+.dataTables_wrapper {
+    position: relative;
+}
+
+    .dataTables_wrapper .dataTables_empty {
+        text-align: center;
+    }
+
+    .dataTables_wrapper .dataTables_scrollBody {
+        overflow-x: hidden;
+    }
+
+    .dataTables_wrapper .dataTable tbody tr {
+        cursor: pointer;
+    }
+
+    .dataTables_wrapper table tbody .selected > td {
+        color: #fff;
+        background-color: #08c;
+    }
+
+    .dataTables_wrapper .dataTables_processing {
+        top: 45%;
+        z-index: 999;
+        height: 25%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0;
+        background-color: #fff;
+        border: 3px solid rgb(170, 170, 170);
+    }
+
+        .dataTables_wrapper .dataTables_processing div {
+            display: table;
+            width: 100%;
+            height: 100%;
+        }
+
+            .dataTables_wrapper .dataTables_processing div h3 {
+                display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+            }
+
+    .dataTables_wrapper .row {
+        margin: 0;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+        padding-top: 0;
+        padding-bottom: 5px;
+        white-space: inherit;
+    }
+
+    .dataTables_wrapper table thead th {
+        vertical-align: middle;
+    }
+
+/* jquery dataTables*/
+
+.form-group .help-block {
+    display: none;
+}
+
+.form-group.has-error .help-block {
+    display: block;
+}
+
+.column-min-width {
+    min-width: 95px !important;
+}
+
+.column-min-width-s {
+    min-width: 60px !important;
+}
+
+.column-min-width-xs {
+    min-width: 30px !important;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.margin-bottom {
+    margin-bottom: 15px;
+}
+
+.padding-bottom {
+    padding-bottom: 15px;
+}
+
+.margin-bottom-s {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-xs {
+    margin-bottom: 5px;
+}
+
+.margin-top-no {
+    margin-top: 0 !important;
+}
+
+.margin-bottom-no {
+    margin-bottom: 0 !important;
+}
+
+.margin-top {
+    margin-top: 15px;
+}
+
+.padding-top {
+    padding-top: 15px;
+}
+
+.padding-top-s {
+    padding-top: 10px;
+}
+
+.padding-top-xs {
+    padding-top: 5px;
+}
+
+.margin-top-s {
+    margin-top: 10px;
+}
+
+.margin-top-xs {
+    margin-top: 5px;
+}
+
+.margin-top-no {
+    margin-top: 0 !important;
+}
+
+.margin-right-xs {
+    margin-right: 5px;
+}
+
+.padding-right-xs {
+    padding-right: 5px !important;
+}
+
+.padding-left-xs {
+    padding-left: 5px !important;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.error {
+    color: #a94442;
+}
+
+.form-horizontal .form-group-sm .help-block {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/*select {
+    width: auto !important;
+}*/
+
+/*FIX PONCHO UI-SELECT*/
+div.ui-select-match.ng-scope > span{
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  line-height: 2.2;
+}
+
+/* En select.css comentar */
+/* Bootstrap theme */
+/* Helper class to show styles when focus */
+/*.btn-default-focus {
+  color: #333;
+  background-color: #EBEBEB;
+  border-color: #ADADAD;
+  text-decoration: none;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}*/
+/*END:FIX PONCHO UI-SELECT*/
+.border-1 {
+    border: 1px solid #dadada;
+}
+
+/*.btn.btn-sm {
+    padding: 8px 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}*/
+
+.text-success2 {
+    color: #3c763d;
+}
+
+.alert-default {
+    background: white;
+    border-color: lightgrey;
+}
+
+/*ANIMATION*/
+/*https://stackoverflow.com/questions/34936333/fade-out-animation-when-ng-if-false*/
+.animate-if.ng-enter {
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s;
+}
+
+.animate-if.ng-enter,
+.animate-if.ng-leave.ng-leave-active {
+  opacity:0;
+}
+
+.animate-if.ng-leave,
+.animate-if.ng-enter.ng-enter-active {
+  opacity:1;
+}
+/*END:ANIMATION*/
+
+.input-group-addon {
+    font-size: 18px !important;
+}
+
+p.control-label {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+}

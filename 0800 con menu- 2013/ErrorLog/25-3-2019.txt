@@ -1,0 +1,14 @@
+Time: 25/03/2019 10:33:30 a.m.
+-----------------------------------------------------------
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Principal.btnSiguiente_Click(Object sender, EventArgs e) in S:\ProyectosASP\0800 con menu- 2013\Principal.aspx.vb:line 102
+Source: mscorlib
+TargetSite: Void AbortInternal()
+-----------------------------------------------------------
+

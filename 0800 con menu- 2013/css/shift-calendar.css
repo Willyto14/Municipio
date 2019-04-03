@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,latin-ext);
+.shiftCalendar {
+	width:100%;
+	font-family:'Open Sans',sans-serif;
+	cursor:default;
+	display:inline-block;
+	margin-bottom:10px;
+}
+
+.shiftCalendar table {
+	width:100%;
+	margin:0 auto;
+	border-spacing:0px;
+}
+
+.shiftCalendar tr {
+	padding:0px !important;
+}
+
+.shiftCalendar table td , .shiftCalendar table th {
+	width:auto !important;
+	font-size:16px;
+	font-family:'Open Sans',sans-serif;
+	line-height:28px;
+	font-weight:100 !important;
+}
+
+.shiftCalendar td,.shiftCalendar td:hover,.shiftCalendar td a,.shiftCalendar td a:hover,.shiftCalendar td a:visited {
+	background:#b4f0ca;
+	vertical-align:middle;
+}
+
+.shiftCalendar td.no-shift-available {
+	background:#000;
+	color:#F00;
+	line-height:28px;
+}
+
+.shiftCalendar td.not-working-day,.shiftCalendar td.notworking {
+	background:#e7e7e9;
+	color:#888;
+}
+
+/* Dias de la fecha (hoy)*/
+.shiftCalendar td.today {
+	background:#E1F1F5;
+	color:#000;
+	
+}
+
+/* Dias disponibles*/
+.shiftCalendar td a,.shiftCalendar td a:visited {
+	color:#333 !important;
+	background:#b4f0ca;
+	display:block;
+	text-decoration:none !important;
+	vertical-align:middle;
+}
+
+.shiftCalendar td a:hover {
+	font-weight:800 !important;
+	}
+
+/* Dia seleccionado*/
+.shiftCalendar td .selected-day {
+	color:#360 !important;
+	background-image: url(images/white-10.png) !important;
+	border-radius:50px;
+	font-weight:800 !important;
+	
+}
+
+.shiftCalendar td.available-day,.shiftCalendar td.available-day:visited {
+	color:#338D2D;
+	background:#B2F1D1;
+}
+
+.shiftCalendar td.today a,.shiftCalendar td.today a:visited {
+	background:#ECF1F5;
+	color:#97B1C6;
+}
+
+.shiftCalendar tr.dia {
+	color:#333 !important;
+	background:#bae0f7 !important;
+}
+
+.shiftCalendar .dia td {
+	background: none !important;
+	font-weight:100;
+}
+
+.shiftCalendar caption {
+	margin:0;
+	padding:0;
+	color:#FFF;
+	font-size:1.2em;
+	/*height:28px;*/
+	font-weight:bold;
+	line-height:19px;
+	background:#444444;
+}
+
+.shiftCalendar caption a.previous-month {
+	background:url(images/calendario-ant.png) no-repeat #444444;
+	display:block;
+	float:left;
+	overflow:hidden;
+	text-indent:-999em;
+	cursor:pointer;
+	z-index:100;
+	position:relative;
+	margin:5px;
+	margin-left:8px;
+	height:16px;
+	width:16px;
+}
+
+.shiftCalendar caption a.next-month {
+	background:url(images/calendario-sig.png) no-repeat #444444;
+	display:block;
+	text-align:right;
+	float:right;
+	overflow:hidden;
+	text-indent:-999em;
+	cursor:pointer;
+	z-index:100;
+	position:relative;
+	margin:5px;
+	height:16px;
+	width:16px;
+}
+
+.shiftCalendar caption span {
+	color:#FFF;
+	font-size:15px;
+	font-weight:bold;
+	line-height:24px;
+	width:80%;
+	text-align:center;
+	padding:0 !important;
+}
+
+.shiftCalendar tr.mes th a {
+	font-size:1.2em;
+}
+
+.shiftCalendar .availableDay {
+	cursor: pointer;
+}
+
+.shiftCalendar table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    /*margin: 40px 0 40px 0;*/
+    padding: 0
+}
+
+.shiftCalendar caption {
+    display: table-caption;
+    text-align: -webkit-center;
+}
+
+.shiftCalendar td,th {
+    padding:6px 10px;
+    border-bottom:1px solid #dadada;
+    line-height:20px;
+    cursor:pointer;
+    line-height:20px;
+}
+
+.shiftCalendar table tr td {
+    border: 1px solid #dadada!important;
+    font-size: 16px;
+    cursor: auto!important;
+    vertical-align: middle
+}

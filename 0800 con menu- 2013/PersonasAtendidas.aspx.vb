@@ -1156,10 +1156,12 @@ Partial Class PersonasAtendidas
         daturnos.Fill(ds)
         ExportaaExcel(ds)
     End Sub
-   
+
 #End Region
 
+    Private Sub Sandes()
 
-    
+    End Sub
+
 
 End Class

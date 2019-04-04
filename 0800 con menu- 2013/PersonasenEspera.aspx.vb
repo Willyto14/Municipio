@@ -468,7 +468,6 @@ Partial Class PersonasenEspera
 
 #End Region
     Public Sub willy()
-
     End Sub
 
 #End Region

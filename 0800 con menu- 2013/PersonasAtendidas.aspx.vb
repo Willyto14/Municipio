@@ -1160,9 +1160,7 @@ Partial Class PersonasAtendidas
 #End Region
 
 
-    Public Sub sergio()
 
-    End Sub
 
 
 End Class

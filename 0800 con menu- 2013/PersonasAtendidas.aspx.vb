@@ -1159,9 +1159,6 @@ Partial Class PersonasAtendidas
 
 #End Region
 
-    Private Sub Sandes()
-
-    End Sub
 
 
 End Class
